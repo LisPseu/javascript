@@ -17,12 +17,12 @@ console.log(sum);
 
 //Задание №3
 
-let n = 100;
+const n = 100;
 
-for(i = 2; i <= n; i++) {
+for(let i = 2; i <= n; i++) {
     let isSimpleNumber = true;
 
-    for(j = 2; j < i; j++) {
+    for(let j = 2; j < i; j++) {
 
         if( i % j === 0){
             isSimpleNumber = false;
